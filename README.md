@@ -1,8 +1,8 @@
-# Pipeline de Câmbio
+<h1 align="center"> Pipeline de Câmbio</h1>
 
-Pipeline de dados desenvolvido durante o **Módulo 3 do programa NExT Dados 2026.1**, da **CESAR School**.
+<p align="center">Pipeline de dados desenvolvido durante o **Módulo 3 do programa NExT Dados 2026.1**, da **CESAR School**.</p>
 
-O projeto realiza a coleta de cotações de moedas por meio da **AwesomeAPI**, armazena os dados originais em uma camada *raw*, executa o tratamento e a transformação com **Pandas** e carrega os resultados em bancos de dados **PostgreSQL** e **MongoDB Atlas**.
+<p align="center">O projeto realiza a coleta de cotações de moedas por meio da **AwesomeAPI**, armazena os dados originais em uma camada *raw*, executa o tratamento e a transformação com **Pandas** e carrega os resultados em bancos de dados **PostgreSQL** e **MongoDB Atlas**.</p>
 
 ## Objetivo
 
