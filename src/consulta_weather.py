@@ -1,4 +1,4 @@
-# import bibliotecas
+
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -18,4 +18,4 @@ params = {"q": cidade, "appid": OPENWEATHER_API_KEY,
 resposta = requests.get(url, params=params, timeout=10)
 resposta.raise_for_status()
 clima = resposta.json()
-print(f'{clima["name"]}: {clima["main"]["temp"]:.1f}C')
+print(f'{clima["name"]}: {clima["main"]["temp"]:.2f}C')

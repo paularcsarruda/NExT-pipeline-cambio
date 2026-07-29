@@ -1,5 +1,5 @@
-import requests
 
+import requests
 
 def consulta_viacep(cep):
     cep = cep.strip().replace("-", "")
