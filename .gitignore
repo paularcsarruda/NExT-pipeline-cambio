@@ -1,4 +1,17 @@
-.venv
-__pycache__/\.env
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Configurações locais
 config.py
+
+# Logs
 *.log
